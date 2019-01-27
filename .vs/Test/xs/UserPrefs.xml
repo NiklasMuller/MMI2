@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{A513BC8D-6A7D-D6C5-EEBE-D27CF600D276}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Button_Attack.cs">
+    <Files>
+      <File FileName="Assets/Button_Attack.cs" Line="54" Column="19" />
+      <File FileName="Assets/ColliderBehave.cs" Line="24" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
