@@ -11,6 +11,9 @@ public class PlayerAttributes : NetworkBehaviour
     [SyncVar]
     public Color playerColor = Color.white;
 
+    [SyncVar]
+    public string playerMonster = "";
+
     // Start is called before the first frame update
     void Start()
     {

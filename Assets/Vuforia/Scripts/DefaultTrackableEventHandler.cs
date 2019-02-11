@@ -118,6 +118,13 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Disable canvas':
         foreach (var component in canvasComponents)
             component.enabled = false;
+
+        /*Wenn Monster erkannt wird, dem richtigen Spieler zuordnen und welches Monster
+         * if(mTrackableBehaviour.TrackableName == "Robot"){
+
+            GameObject.Find("PlayerInfo").GetComponent<LobbyPlayer>();
+
+        } */
     }
 
     #endregion // PROTECTED_METHODS

@@ -14,5 +14,6 @@ public class NetworkLobbyHook : LobbyHook
 
         localPlayer.pname = lobby.playerName;
         localPlayer.playerColor = lobby.playerColor;
+        //localPlayer.playerMonster = lobby.playerMonster;
     }
 }
