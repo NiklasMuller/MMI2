@@ -8,10 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/Test_Scene.unity
-    guid: 3df8e555550ab41e9816ee7ff49553a9
   - enabled: 1
+    path: Assets/Lobby_Scene.unity
+    guid: 81300fd35fbf74467a0a11336fff3a31
+  - enabled: 1
+    path: Assets/Game_Scene.unity
+    guid: 3df8e555550ab41e9816ee7ff49553a9
+  - enabled: 0
     path: Assets/TestShaking.unity
     guid: 286f782684be7405f88e59cd7ff57113
   m_configObjects: {}
