@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class ButtonJoinBehaviour : MonoBehaviour
 {
     public Button join;
-    public GameObject text;
     GameObject alert;
     // Start is called before the first frame update
     void Start()

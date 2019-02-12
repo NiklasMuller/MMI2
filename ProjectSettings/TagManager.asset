@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Figure1
   - Fireball
+  - Monster
   layers:
   - Default
   - TransparentFX

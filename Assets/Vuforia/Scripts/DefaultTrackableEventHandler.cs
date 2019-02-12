@@ -101,7 +101,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         foreach (var component in canvasComponents)
             component.enabled = true;
 
-        Debug.Log(mTrackableBehaviour.TrackableName);
 
         // Create a temporary reference to the current scene.
         Scene currentScene = SceneManager.GetActiveScene();

@@ -28,6 +28,7 @@ public class PlayerAttributes : NetworkBehaviour
         foreach (Renderer r in rends)
             // To-do: Nur den Text umfärben! Moment wird alles was zum Player-Objekt gehört eingefärbt!
             r.material.color = playerColor;
+        GameObject.Find("RawImage").SetActive(false);
     }
 
     // Update is called once per frame
@@ -35,6 +36,5 @@ public class PlayerAttributes : NetworkBehaviour
     {
         this.GetComponentInChildren<TextMesh>().text = pname;
         this.GetComponentInChildren<TextMesh>().transform.position = new Vector3(0, 0, 1050);
-        Debug.Log(playerMonster);
     }
 }
