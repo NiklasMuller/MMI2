@@ -303,6 +303,7 @@
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
 "Assets/Button_Attack.cs"
+"Assets/ButtonJoinBehaviour.cs"
 "Assets/Card.cs"
 "Assets/ColliderBehave.cs"
 "Assets/Lobby/Scripts/DraggablePanel.cs"

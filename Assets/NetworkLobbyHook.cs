@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Prototype.NetworkLobby;
 using UnityEngine.Networking;
+using UnityEngine.UI;
 
 public class NetworkLobbyHook : LobbyHook
 {
@@ -14,6 +15,6 @@ public class NetworkLobbyHook : LobbyHook
 
         localPlayer.pname = lobby.playerName;
         localPlayer.playerColor = lobby.playerColor;
-        //localPlayer.playerMonster = lobby.playerMonster;
+        localPlayer.playerMonster = GameObject.Find("MonsterName").GetComponent<Text>().text;
     }
 }

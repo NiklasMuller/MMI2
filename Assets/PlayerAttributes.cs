@@ -35,6 +35,6 @@ public class PlayerAttributes : NetworkBehaviour
     {
         this.GetComponentInChildren<TextMesh>().text = pname;
         this.GetComponentInChildren<TextMesh>().transform.position = new Vector3(0, 0, 1050);
-        Debug.Log(pname);
+        Debug.Log(playerMonster);
     }
 }

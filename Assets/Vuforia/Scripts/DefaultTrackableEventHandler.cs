@@ -8,6 +8,8 @@ Confidential and Proprietary - Protected under copyright and other laws.
 
 using UnityEngine;
 using Vuforia;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// A custom handler that implements the ITrackableEventHandler interface.
@@ -98,6 +100,22 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Enable canvas':
         foreach (var component in canvasComponents)
             component.enabled = true;
+
+        Debug.Log(mTrackableBehaviour.TrackableName);
+
+        // Create a temporary reference to the current scene.
+        Scene currentScene = SceneManager.GetActiveScene();
+
+        // Retrieve the name of this scene.
+        string sceneName = currentScene.name;
+
+        if (sceneName != "Game_Scene") GameObject.Find("MonsterName").GetComponent<Text>().text = mTrackableBehaviour.TrackableName;
+        /*Wenn Monster erkannt wird, dem richtigen Spieler zuordnen und welches Monster
+         * if(mTrackableBehaviour.TrackableName == "Robot"){
+
+            GameObject.Find("PlayerInfo").GetComponent<LobbyPlayer>();
+
+        } */
     }
 
 
@@ -119,12 +137,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         foreach (var component in canvasComponents)
             component.enabled = false;
 
-        /*Wenn Monster erkannt wird, dem richtigen Spieler zuordnen und welches Monster
-         * if(mTrackableBehaviour.TrackableName == "Robot"){
 
-            GameObject.Find("PlayerInfo").GetComponent<LobbyPlayer>();
-
-        } */
     }
 
     #endregion // PROTECTED_METHODS
