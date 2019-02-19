@@ -8,13 +8,14 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Toon Additive_(original)
-  m_Shader: {fileID: 4800000, guid: dfc2f5cee12f7df47b436ce0d52d63e3, type: 3}
-  m_ShaderKeywords: Enable_Bloom
-  m_LightmapFlags: 5
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: Enable_Bloom _ALPHAPREMULTIPLY_ON _EMISSION
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -44,7 +45,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: fcbc2e23daee107458e174cb6ab4257b, type: 3}
+        m_Texture: {fileID: 2800000, guid: b33d68e8275874d4ea316190b470b988, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -64,17 +65,21 @@ Material:
     - _CutRotation: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _EmissionGain: 0.2
-    - _Glossiness: 0.5
+    - _GlossMapScale: 1
+    - _Glossiness: 0.387
+    - _GlossyReflections: 1
     - _InvFade: 1
     - _MainRotation: 0
     - _MaskPosterize: 2
-    - _Metallic: 0
-    - _Mode: 0
+    - _Metallic: 0.527
+    - _Mode: 3
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Posterize: 8.7
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
     - _Speed: 30
     - _SrcBlend: 1
     - _USEMASK: 0
@@ -87,10 +92,10 @@ Material:
     - _UVScrollX: 0
     - _UVScrollY: 0
     - _UVSec: 0
-    - _ZWrite: 1
+    - _ZWrite: 0
     - _xx: 1
     - _yy: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 0.30542302, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
